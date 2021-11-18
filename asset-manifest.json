@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tourism/static/css/main.8dda65a6.chunk.css",
+    "main.js": "/tourism/static/js/main.5fd45e64.chunk.js",
+    "main.js.map": "/tourism/static/js/main.5fd45e64.chunk.js.map",
+    "runtime-main.js": "/tourism/static/js/runtime-main.96ad0c56.js",
+    "runtime-main.js.map": "/tourism/static/js/runtime-main.96ad0c56.js.map",
+    "static/css/2.a2d3e5c1.chunk.css": "/tourism/static/css/2.a2d3e5c1.chunk.css",
+    "static/js/2.e10a6eb2.chunk.js": "/tourism/static/js/2.e10a6eb2.chunk.js",
+    "static/js/2.e10a6eb2.chunk.js.map": "/tourism/static/js/2.e10a6eb2.chunk.js.map",
+    "index.html": "/tourism/index.html",
+    "static/css/2.a2d3e5c1.chunk.css.map": "/tourism/static/css/2.a2d3e5c1.chunk.css.map",
+    "static/css/main.8dda65a6.chunk.css.map": "/tourism/static/css/main.8dda65a6.chunk.css.map",
+    "static/js/2.e10a6eb2.chunk.js.LICENSE.txt": "/tourism/static/js/2.e10a6eb2.chunk.js.LICENSE.txt",
+    "static/media/aerosilla-0.7f6e2031.jfif": "/tourism/static/media/aerosilla-0.7f6e2031.jfif",
+    "static/media/aerosilla-2.07d31ac5.jpg": "/tourism/static/media/aerosilla-2.07d31ac5.jpg",
+    "static/media/styles.css": "/tourism/static/media/unique-experience-1.110bbd05.jpg",
+    "static/media/paisaje-montania.08d3c6ff.jpg": "/tourism/static/media/paisaje-montania.08d3c6ff.jpg",
+    "static/media/star.f478258f.png": "/tourism/static/media/star.f478258f.png",
+    "static/media/tabla-de-snow-new.50decea3.jpg": "/tourism/static/media/tabla-de-snow-new.50decea3.jpg",
+    "static/media/trekking.73a542cf.jpg": "/tourism/static/media/trekking.73a542cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96ad0c56.js",
+    "static/css/2.a2d3e5c1.chunk.css",
+    "static/js/2.e10a6eb2.chunk.js",
+    "static/css/main.8dda65a6.chunk.css",
+    "static/js/main.5fd45e64.chunk.js"
+  ]
+}

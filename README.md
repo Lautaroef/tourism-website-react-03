@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Heading 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Heading 2
 
-## Available Scripts
+### Heading 3
 
-In the project directory, you can run:
+#### Heading 4
 
-### `yarn start`
+##### Heading 5
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+###### Heading 6
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## <!-- Horizontal line -->
 
-### `yarn test`
+<!-- Italics -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_This text_ is bold
 
-### `yarn build`
+_This text_ is italic
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Strong -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**This text** is italic
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**This text** is italic
 
-### `yarn eject`
+<!-- Strikethrough -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+~~This text~~ is strikethrough
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\*This text\* has slashes to show the \*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+<!-- Blockquote -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> This text is a quote
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- Links -->
 
-### Code Splitting
+[Link hacia imagen de california](https://image.shutterstock.com/image-photo/beautiful-sunset-los-angeles-downtown-600w-1418018357.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Link hacia imagen de california con alt personalizado](https://image.shutterstock.com/image-photo/beautiful-sunset-los-angeles-downtown-600w-1418018357.jpg "Show Alternative Title")
 
-### Analyzing the Bundle Size
+<!-- UL -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Item 1
+- Item 2
+  - Nested item 1
+  - Nesterd item 2
+    - Y asi...
 
-### Making a Progressive Web App
+<!-- OL -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Lista ordenada
+1. Y su contenido hermano
+1. Y asi...
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- Inline Code Block -->
 
-### Deployment
+`<p>This is a paragraph to describe the next image</p>>`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- Images -->
 
-### `yarn build` fails to minify
+![Markdown logo](https://res.cloudinary.com/practicaldev/image/fetch/s--pFn86d2h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://markdown-here.com/img/icon256.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Github Markdowns -->
+
+```
+  npm install
+
+  npm start
+```
+
+```javascript
+function sum(num1, num2) {
+  return num1 + num2;
+}
+```
+
+<!-- Tables -->
+
+| Name             | Email               |
+| ---------------- | ------------------- |
+| Lautaro Figueroa | lautaroef@gmail.com |
+| Microsoft        | microsoft@gmail.com |
+
+<!-- Task List -->
+
+- [x] Task 1
+- [x] Task 2
+- [ ] Task 3

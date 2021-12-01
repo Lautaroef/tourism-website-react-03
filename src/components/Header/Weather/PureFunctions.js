@@ -31,7 +31,8 @@ export function convertDateNumberIntoDayString(time) {
   }
 }
 
-// Random Math number (Price in USD$)
+//
 export function randomNumberBetweenInterval(min, max) {
+  // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
 }

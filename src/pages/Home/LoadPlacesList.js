@@ -28,10 +28,10 @@ const ShowPlace = ({ name, rate, xid }) => {
       <h2 className="custom-title">{name}</h2>
       <div className="custom-subtitle">
         <div className="custom-images">
-          <img src={star} className="w-5" />
-          <img src={star} className="w-5" />
-          <img src={star} className="w-5" />
-          <img src={star} className="w-5" />
+          <img src={star} className="w-5" alt="star" />
+          <img src={star} className="w-5" alt="star" />
+          <img src={star} className="w-5" alt="star" />
+          <img src={star} className="w-5" alt="star" />
           {/* {arrayOfStars.map((html) => {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, "text/html");

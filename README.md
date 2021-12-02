@@ -1,96 +1,70 @@
-# Heading 1 new
+# Tourism Company website.
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-## <!-- Horizontal line -->
-
-<!-- Italics -->
-
-_This text_ is bold
-
-_This text_ is italic
-
-<!-- Strong -->
-
-**This text** is italic
-
-**This text** is italic
-
-<!-- Strikethrough -->
-
-~~This text~~ is strikethrough
-
-\*This text\* has slashes to show the \*
+### Project 02
 
 ---
 
----
+This website is a tourism oriented business, in which i applied some Front End tools to replicate a website in which i think it has a nice
+User Interface & Experience, because of it's easy and useful way to sort out a common problem when you are trying to go vacations. 👉 [BarlanTravel.com](https://www.barlantravel.com/)
 
-<!-- Blockquote -->
+### **Technologies used**
 
-> This text is a quote
+This website was made using these technologies:
 
-<!-- Links -->
+- HTML
+- CSS
+- JavaScript
+- styled-components 💅
+- Tailwind CSS
+- ReactJS
+  - Hooks
+  - Custom Hooks
+  - react-router
+- Redux Toolkit
+  - createAsyncThunk - createSlice
+  - createApi
+- Git & Github
 
-[Link hacia imagen de california](https://image.shutterstock.com/image-photo/beautiful-sunset-los-angeles-downtown-600w-1418018357.jpg)
+| Styling technologies used in this project                                       |
+| ------------------------------------------------------------------------------- |
+| ![Styles graph usage](README-tech-graph.jpg "Technologies graph used to Style") |
+|                                                                                 |
 
-[Link hacia imagen de california con alt personalizado](https://image.shutterstock.com/image-photo/beautiful-sunset-los-angeles-downtown-600w-1418018357.jpg "Show Alternative Title")
+### **Why i used/learned this libraries/frameworks**.
 
-<!-- UL -->
+> **ReactJs** in combination with **Hooks** & **custom Hooks**
 
-- Item 1
-- Item 2
-  - Nested item 1
-  - Nesterd item 2
-    - Y asi...
+Im using **React** for the creation of reusable components easy to maintain, i tried to keep the information received by the components as easy to understand as possible and convenient.
+With the combination also of classic props to components children and useContext Hook for handle some state-management.<br/>
+Later Redux library was implemented too.
 
-<!-- OL -->
+It this project were used:
 
-1. Lista ordenada
-1. Y su contenido hermano
-1. Y asi...
+1. useState()
+1. useEffect()
+1. useRef()
+1. useContext()
+1. useCallback()
 
----
+- useLocalStorage()
+- useWindowSize()
+- ~~GetUserLocation~~()
 
-<!-- Inline Code Block -->
+Apart of various Pure Functions implementations in certain occasions where i found them useful.
 
-`<p>This is a paragraph to describe the next image</p>>`
+> **State management** using **useContext** and **Redux Toolkit**
+>
+> I used the **useContext** hook provided by React to handle the state of the Weather API info because i need the information in the header, and second when the weather's modal is opened (made with createPortal()). The difference is that in the header i need information of day 1 and in the modal im calling information for the next 5 days.
 
-<!-- Images -->
+Next, i used **Redux Toolkit** to manage the PlacesAPI information as i thought that the useContext file would get messy and most important was that if 1 part would need to render all the rest would re-render unnecessary causing performance issues.<br/>
+Here i used _createAsyncThunks_ methods and all its procedure to make the 3 necessary API calls to get what were required. Last one call was made using createApi method.
 
-![Markdown logo](https://res.cloudinary.com/practicaldev/image/fetch/s--pFn86d2h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://markdown-here.com/img/icon256.png)
+> Pages Routing using **react-router/-dom v6**
 
-<!-- Github Markdowns -->
+Used in this project this routing library to easily handle pagination and provide awesome performance.<br/>
+Usage of useParams hook to get the unique id of the Place clicked on the Home page, and display it's content on the "SinglePlace" page. <br/>
+useLocation hook was also implemented for styling purposes (styled-components).
 
-```
-  npm install
+<!-- styled-components (Used 100% to set up the "SinglePlace" pages)
 
-  npm start
-```
-
-```javascript
-function sum(num1, num2) {
-  return num1 + num2;
-}
-```
-
-<!-- Tables -->
-
-| Name             | Email               |
-| ---------------- | ------------------- |
-| Lautaro Figueroa | lautaroef@gmail.com |
-| Microsoft        | microsoft@gmail.com |
-
-<!-- Task List -->
-
-- [x] Task 1
-- [x] Task 2
-- [ ] Task 3
+(Slider & Contact Page) -->

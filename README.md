@@ -25,11 +25,6 @@ This website was made using these technologies:
   - createApi
 - Git & Github
 
-| Styling technologies used in this project                                       |
-| ------------------------------------------------------------------------------- |
-| ![Styles graph usage](README-tech-graph.jpg "Technologies graph used to Style") |
-|                                                                                 |
-
 ### **Why i used/learned this libraries/frameworks**.
 
 > **ReactJs** in combination with **Hooks** & **custom Hooks**

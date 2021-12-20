@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tourism-website-react-03/static/css/main.72a1ae18.chunk.css",
-    "main.js": "/tourism-website-react-03/static/js/main.cce43519.chunk.js",
-    "main.js.map": "/tourism-website-react-03/static/js/main.cce43519.chunk.js.map",
+    "main.js": "/tourism-website-react-03/static/js/main.ce94a08b.chunk.js",
+    "main.js.map": "/tourism-website-react-03/static/js/main.ce94a08b.chunk.js.map",
     "runtime-main.js": "/tourism-website-react-03/static/js/runtime-main.f8c9fe6c.js",
     "runtime-main.js.map": "/tourism-website-react-03/static/js/runtime-main.f8c9fe6c.js.map",
     "static/css/2.a2d3e5c1.chunk.css": "/tourism-website-react-03/static/css/2.a2d3e5c1.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.a2d3e5c1.chunk.css",
     "static/js/2.98ffb69a.chunk.js",
     "static/css/main.72a1ae18.chunk.css",
-    "static/js/main.cce43519.chunk.js"
+    "static/js/main.ce94a08b.chunk.js"
   ]
 }

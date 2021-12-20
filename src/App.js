@@ -27,7 +27,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path={["/", "/tourism-website-react-03"]} element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/tourism-website-react-03" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/SinglePlace/:xid" element={<SinglePlace />} />

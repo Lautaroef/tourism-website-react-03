@@ -47,14 +47,13 @@ It this project were used:
 
 Apart of various Pure Functions implementations in certain occasions where i found them useful.
 
-> **State management** using **useContext** and **Redux Toolkit**
->
-> I used the **useContext** hook provided by React to handle the state of the Weather API info because i need the information in the header, and second when the weather's modal is opened (made with createPortal()). The difference is that in the header i need information of day 1 and in the modal im calling information for the next 5 days.
+## **State management** using **useContext** and **Redux Toolkit**
+I used the **useContext** hook provided by React to handle the state of the Weather API info because i need the information in the header, and second when the weather's modal is opened (made with createPortal()). The difference is that in the header i need information of day 1 and in the modal im calling information for the next 5 days.
 
 Next, i used **Redux Toolkit** to manage the PlacesAPI information as i thought that the useContext file would get messy and most important was that if 1 part would need to render all the rest would re-render unnecessary causing performance issues.<br/>
 Here i used _createAsyncThunks_ methods and all its procedure to make the 3 necessary API calls to get what were required. Last one call was made using createApi method.
 
-> Pages Routing using **react-router/-dom v6**
+## Pages Routing using **react-router/-dom v6**
 
 Used in this project this routing library to easily handle pagination and provide awesome performance.<br/>
 Usage of useParams hook to get the unique id of the Place clicked on the Home page, and display it's content on the "SinglePlace" page. <br/>

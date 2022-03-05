@@ -1,4 +1,4 @@
-# Tourism Company website.
+# Tourism Booking Website.
 
 ### Project 02
 

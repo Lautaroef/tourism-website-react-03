@@ -98,7 +98,7 @@ function Footer() {
         className="text-center p-4 text-sm"
         style={{ backgroundColor: `rgba(0, 0, 0, 0.05)` }}
       >
-        Site Developed by Lautaro Figueroa ©
+        Site Developed by Friedman Software ©
       </div>
     </>
   );

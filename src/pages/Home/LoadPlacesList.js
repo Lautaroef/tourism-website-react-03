@@ -10,13 +10,6 @@ const ShowPlace = ({ name, rate, xid }) => {
 
   const randomPrice = randomNumberBetweenInterval(43, 79);
 
-  // // Convert rate number to img elements
-  // const arrayOfStars = [];
-  // for (let i = 0; i < rate; i++) {
-  //   const htmlImg = `<img src=${star} className="w-5" />`;
-  //   arrayOfStars.push(htmlImg);
-  // }
-
   return (
     <Link to={`/SinglePlace/${xid}`} className="custom-div">
       <img
@@ -32,11 +25,6 @@ const ShowPlace = ({ name, rate, xid }) => {
           <img src={star} className="w-5" alt="star" />
           <img src={star} className="w-5" alt="star" />
           <img src={star} className="w-5" alt="star" />
-          {/* {arrayOfStars.map((html) => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            console.log(doc.body.firstChild);
-          })} */}
         </div>
         <p className="custom-paragraph">USD$ {randomPrice}</p>
       </div>
